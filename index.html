@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang=”hu”>
+
+<head>
+    <meta charset=”UTF-8”>
+    <title>Kérdőív könyvolvasási szokásokról</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Kérdőív könyvolvasási szokásokról</h1>
+        
+    </header>
+    <article>
+        
+        <section>
+            <img src="img/konyvtar.jpg" alt="könyv">
+            <h2>Kedves Kérdőívet Kitöltő!</h2>
+                <p>
+                    Benkovics Anita vagyok és könyvtár szakra járok a Kodolányi János egyetemre. Szakdolgozatomat arról arom, hogy hogyan változtak meg a könyvolvasási szokások a digitális világban. <br>Ehhez készült ez a kérdőív is, melyben valódi adatokra alapozva szeretném ezt a témát körüljárni.<br>
+                    A kitöltés maximum 10 percet vesz igénybe.<br>
+                    Ezúton is szeretném megköszönni, hogy a kérdőív kitöltésével támogat a sikeres szakdolgozat írásban!<br>
+                    Üdvözlettel: Benkovics Anita
+                </p>
+               
+        </section>
+        
+    </article>
+    <form>
+        <h3>Az Ön neme:</h3>
+        <select name="valaszolo_neme">
+                <option value="ferfi">Férfi</option>
+                <option value="no">Nő</option>
+        </select><br>
+        <h3>Az Ön kora:</h3>
+            <input type="radio" name="kor" value="tizes">10-20<br>
+            <input type="radio" name="kor" value="huszas">21-30<br>
+            <input type="radio" name="kor" value="harmincas">31-40<br>
+            <input type="radio" name="kor" value="negyvenes">>40<br>
+        <h3>Legmagasabb iskolai végzettsége:</h3>
+            <input type="radio" name="vegzettseg" value="alap">Általános iskola<br>
+            <input type="radio" name="vegzettseg" value="kozep">Középiskola<br>
+            <input type="radio" name="vegzettseg" value="felso">Egyetem/Főiskola<br>
+        <h3>Milyen rendszeresen olvas könyvet?</h3>
+            <input type="radio" name="rendszeresseg" value="napi">Naponta<br>
+            <input type="radio" name="rendszeresseg" value="heti">Hetente<br>
+            <input type="radio" name="rendszeresseg" value="havi">Havonta<br>
+            <input type="radio" name="rendszeresseg" value="soha">Soha<br>
+        <h3>Évente mennyi könyvet olvas?</h3> <br>
+            <input type="text" name="osszes">db <br>
+        <h3>Milyen típusú könyvet olvas szívesebben?</h3>
+            <input type="checkbox" name="tipus" value="ekonyv">E-könyv<br>
+            <input type="checkbox" name="tipus" value="papir">Papír alapú könyv<br>
+        <h3>Évente körülbelül mennyit költ e-bookra?</h3>
+            <input type="text" name="koltes">Ft <br>
+        <h4>Ha nem vásárol e-bookot, miért nem?:</h4>
+            <textarea name="message" rows="10" cols="30"></textarea><br>
+        <h3>Évente körülbelül mennyit költ papír alapú könyvre?:</h3>
+            <input type="text" name="koltes">Ft <br>
+        <h3>Örülnék, ha pár szóban megosztaná velem, hogy miért szeret olvasni:</h3>
+            <textarea name="message" rows="10" cols="30"></textarea><br>
+        <input type="submit" value="Kérdőív elküldése"><br>
+    </form>
+        <p>
+            Köszönöm a kitöltést!
+        </p>
+    <footer>
+        <p>
+        © Benkovics Anita
+        </p>
+    </footer>
+</body>
+
+</html>
